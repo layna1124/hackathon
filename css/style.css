@@ -61,11 +61,13 @@ ul, li, ol{list-style:none;}
   background: #aaa;
   position: relative;
   margin:50px 65px 20px 65px;      
+  background-position:center center; background-repeat:no-repeat;
 }
 .slide-prev, .slide-next{
   width:40px;
   height: 60px;
   border:1px solid #ddd;
+  text-indent:-9999px;
 }
 .slide-prev{
   position: absolute;
@@ -125,6 +127,7 @@ ul, li, ol{list-style:none;}
   top:0;
   left:0;
   transition: all 0.4s ease-in;
+  /* display: none; */
 }
 .item:hover .mask{
   opacity: 1;    
@@ -159,5 +162,5 @@ ul, li, ol{list-style:none;}
 .rank-b {width:33.333333%; float:left; }
 .rank-b figure{width:240px; height:300px; border:4px solid #fff; margin:auto; background-size:cover;}
 .rank-info{width:240px; margin:auto;}
-.rank-info dt{font-size:36px; font-weight: bold;}
-.rank-info dd{font-size:18px;}
+.rank-info dt{font-size:36px; font-weight: bold; color:rgba(0,0,0,0.8); padding:10px; display: block; text-align:center;}
+.rank-info dd{font-size:16px; padding:10px;  color:rgba(0,0,0,0.8);  border-top:1px solid rgba(0,0,0,0.2); text-align:center;}
