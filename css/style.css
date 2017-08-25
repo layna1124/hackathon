@@ -27,6 +27,10 @@ ul, li, ol{list-style:none;}
   width:1280px; 
   margin:auto;
 }
+.section1, .section2, .section3{
+  width:100%;
+  min-width:1280px;
+}
 .section1{
   background-color: #a73e5c;
   text-align:center;
@@ -38,11 +42,11 @@ ul, li, ol{list-style:none;}
   padding-top:60px;
 }
 .hd-group .hd-tit{font-size:24px; font-weight: bold; margin-bottom:35px;}
-.hd-tit1{ margin-bottom:40px;}
-.hd-tit2{}
+.hd-group .hd-tit1{ margin-bottom:40px;}
+
 
 .section2{
-  height: 600px;
+  height: auto;
 }
 .slide-wrap{
   width:730px; 
@@ -143,3 +147,17 @@ ul, li, ol{list-style:none;}
 .btn-vote.em1{background:url('../images/happy.png')no-repeat 10% 40%;}
 .btn-vote.em2{background:url('../images/surprised.png')no-repeat 10% 40%;}
 .btn-vote.em3{background:url('../images/sad.png')no-repeat 10% 40%;}
+.btn-vote-go{border:0; background:#ff5e22; color:#fff; font-size:24px; 
+             width:320px; padding:20px; margin:0px auto 60px; display: block; }
+.btn-vote-go:hover{box-shadow: 0 0 15px rgba(50,50,50,0.4);}
+
+.section3{background:#ffd285 url('../images/bg-authum-left.png')no-repeat top left; padding-bottom: 80px;}
+/*.section3:after{background:#ffd285 url('../images/bg-authum-right.png')no-repeat top right; }*/
+.section3 .hd-tit3{font-size:30px; color:#ff5e22; text-align: center; padding:40px 0 30px;}
+.section3 .hd-tit3 b{font-weigh:bold;}
+.rank-wrap{width:960px; margin:0 auto;}
+.rank-b {width:33.333333%; float:left; }
+.rank-b figure{width:240px; height:300px; border:4px solid #fff; margin:auto; background-size:cover;}
+.rank-info{width:240px; margin:auto;}
+.rank-info dt{font-size:36px; font-weight: bold;}
+.rank-info dd{font-size:18px;}
